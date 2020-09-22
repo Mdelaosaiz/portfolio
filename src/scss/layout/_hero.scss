@@ -1,0 +1,27 @@
+.hero{
+ width: 100%;
+ position: relative;
+ margin-top: 60px;
+ background-color: #F7F5F6;
+
+ .intro{
+
+  .hero-arrow{
+    height: 45px;
+    width: 45px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height:45px ;
+
+    .fas {
+      // width: 20px;        
+      // height: 11.7px;
+      color:black;
+    }
+  }
+  .hero-arrow:hover{
+    cursor: pointer;
+  }
+ }
+}

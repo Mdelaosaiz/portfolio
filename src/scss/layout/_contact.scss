@@ -1,0 +1,60 @@
+.contact {
+  width: 100%;
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 30px;
+  
+
+
+  .chat{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   line-height:30px;
+   margin-top: 10px;
+   font-family: $font-primary;
+
+   h2{
+     
+   }
+  }
+
+  .socialmedia {
+    height: 40px;
+    width: 300px;
+    margin: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+    text-align: center;
+    border: 3px solid #77C680;
+    border-radius: 5px;
+    
+
+    li:not(:last-child):after {
+      content: " · ";
+      color: black;
+      font-weight: 900;
+      padding: 5px;
+    }
+
+    .logos {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+
+      .fas,
+      .fab {
+        font-size:30px;
+        margin: 10px;
+        color: #77C680;
+      }
+    }
+  }
+}

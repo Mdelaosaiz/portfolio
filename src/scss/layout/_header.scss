@@ -1,0 +1,48 @@
+.header {
+  border: 2px solid green;
+  width: 100%; 
+  padding: 3px;
+  top: 0;
+  position: absolute; 
+  // background-color: honeydew;
+
+  
+  .logo-name {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 30px;
+
+    .logo {
+     height: 40px;
+     width: 70px;
+     margin: 3px;
+    }
+    .menu {
+     margin-right: 50px;
+  
+      .header-menu {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       width: 200px;
+       height: 100%;
+     
+        li {
+         font-family: $font-primary;
+         font-size: 18px;
+         display: flex;
+         justify-content: center;
+         margin: 0px;
+         padding: 10px; 
+         line-height: 10px;    
+        }
+      
+        a{  
+         padding: 10px; 
+
+        } 
+      }
+    }  
+  }
+}
