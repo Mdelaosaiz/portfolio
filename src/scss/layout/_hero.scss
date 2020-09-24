@@ -1,27 +1,42 @@
 .hero{
- width: 100%;
- position: relative;
- margin-top: 60px;
- background-color: #F7F5F6;
-
- .intro{
-
-  .hero-arrow{
-    height: 45px;
-    width: 45px;
-    background-color: red;
-    border-radius: 50%;
-    text-align: center;
-    line-height:45px ;
-
-    .fas {
-      // width: 20px;        
-      // height: 11.7px;
-      color:black;
-    }
-  }
-  .hero-arrow:hover{
-    cursor: pointer;
+  width: 100%;
+  height: 38vh ;
+  position: relative;
+  margin-top: 60px;
+  background: url("../../assets/images/hero1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+ //  opacity: 0.85;
+  border: 4px solid green;
+ 
+  .intro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:200px;
+    font-size: 20px;
+    color: orangered;
+    
+   h2{
+     color:black;
+   } 
+ 
+   .hero-arrow{
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
+     text-align: center;
+     line-height:45px ;
+ 
+     .fas {
+       // width: 20px;        
+       // height: 11.7px;
+       color:black;
+     }
+   }
+   .hero-arrow:hover{
+     cursor: pointer;
+   }
   }
  }
-}
