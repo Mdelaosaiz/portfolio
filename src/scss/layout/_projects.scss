@@ -27,9 +27,15 @@
     transition:
         flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.2s;
+
+    background-size: cover;
+    background-position: center;       
   }
+  .projects .project .tools.open-active{
+    transform: translateY(0%);
+  } 
   .project.open {
-    flex:5;
+    flex:10;
    }
   .project1{
     background: url("../../assets/images/buscadors.png");
@@ -46,6 +52,7 @@
     background-size: cover;
     background-position: center;
   }
+
   .project4{
     background: url("../../assets/images/maniacs.png");
     background-size: cover;
@@ -77,9 +84,5 @@
       height: 40px;
       width: 40px;
     }
-  }
-  
-  .tools.open-active {
-    transform: translateY(0);
   }
 }
