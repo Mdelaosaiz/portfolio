@@ -18,14 +18,19 @@
   }
   .project {
     border: 1px solid blue;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
     background-size: cover;
     background-position: center;
     flex:1;
     transition:
-        font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
         background 0.2s;
   }
+  .project.open {
+    flex:5;
+   }
   .project1{
     background: url("../../assets/images/buscadors.png");
     background-size: cover;
@@ -50,5 +55,31 @@
     background: url("../../assets/images/rick.png");
     background-size: cover;
     background-position: center;
+  }
+  .tools{
+    transition: transform 0.5s;
+    flex: 1 0 auto;
+    transform: translateY(120%);
+
+    .js {
+      height: 40px;
+      width: 40px;
+    }
+    .css {
+      height: 40px;
+      width: 40px;
+    }
+    .html {
+      height: 40px;
+      width: 40px;
+    }
+    .react {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  
+  .tools.open-active {
+    transform: translateY(0);
   }
 }
