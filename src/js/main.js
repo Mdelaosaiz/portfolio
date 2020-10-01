@@ -24,4 +24,3 @@ function activeProject(e) {
 projects.forEach(project => project.addEventListener('click', openProject));
 projects.forEach(project => project.addEventListener('transitionend', activeProject));
 
-
