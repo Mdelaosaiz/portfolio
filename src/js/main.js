@@ -6,8 +6,11 @@ const projects = document.querySelectorAll ('.project');
 //Funciones
 
 function openProject() {
+  //TODO se puede quitar el for para que se cierren al clickar, pero no se cerrarían al abrir otro.
   for (let i of document.querySelectorAll('.open')){
-    i.classList.toggle('open');
+    if(i.classList.contains('open')){
+      i.classList.remove('open');
+    }i.classList.toggle('open');
   }
   this.classList.toggle('open');
 }
