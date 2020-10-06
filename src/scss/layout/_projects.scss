@@ -1,10 +1,15 @@
 .proyects-section {
   width: 100%;
+  padding: 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: $font-primary;
+  font-size: 20px;
+  color:purple;
   
 
   .projects {
@@ -38,6 +43,13 @@
   } 
   .project.open {
     flex:10;
+
+    @media all and(min-width:760px){
+     flex:3;
+    }
+    @media all and(min-width:1200px){
+      flex:1.5;
+     }
    }
   .project1{
     background: url("../../assets/images/buscadors.png");

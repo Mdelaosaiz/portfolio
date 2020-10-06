@@ -4,16 +4,18 @@
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  padding: 5px;
+  padding: 15px;
   background-color: #DFF7D3;
 
-  @media all and (min-width:1200px){
+  @media all and (min-width:760px){
     justify-content: space-around;
+    padding-bottom: 25px;
   }
   
   .portrait{
-    height: 250px;
-    margin-top: 60%;
+    height: 300px;
+    margin-top: 40vh;
+    border-radius: 15px;
 
     @media all and (min-width:768px){
       height: 450px;
@@ -26,7 +28,7 @@
 
   }
   .welcome{
-    width: 360px;
+    width: 260px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -36,8 +38,8 @@
     font-family: $font-primary;
     
 
-    @media all and (min-width:1200px){
-      width: 550px;
+    @media all and (min-width:760px){
+      width: 570px;
       padding: 5px;
       font-size: 25px;
     }
@@ -52,7 +54,7 @@
       font-size: 18px ;
       margin-bottom: 10px;
 
-      @media all and (min-width:1200px){
+      @media all and (min-width:760px){
         font-size: 30px;
       }
      }
@@ -64,36 +66,41 @@
 
       @media all and (min-width:768px){
         line-height: 30px;
+        font-size: 20px;
       }
       @media all and (min-width:1200px){
-        font-size: 20px;
+        
         line-height: 40px;
       }
     }
   }
+  .hobbies-list{
+    width: 100%;
+    margin: 30px;
+    padding-right:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 20px;
+    color: green;
+
+    img{
+      height: 40px;
+      margin: 10px;
+
+      @media all and (min-width:1200px){ 
+       height: 80px;
+       margin: 10px;
+      }
+      
+    }
+  }
+    
+  .hobbies-list:hover{
+    cursor: pointer;
+  }
 }
 
- 
-
-// 
-
-//   .hobbies-list{
-//     width: 100%;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content:center;
-//     align-items: center;
-
-//     img{
-//      height: 60px;
-//      width: 60px;
-//      margin: 10px;
-//     }
-//   }
-
-//   .hobbies-list:hover{
-//     cursor: pointer;
-//   }
-// }
 
  
