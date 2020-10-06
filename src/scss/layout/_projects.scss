@@ -8,7 +8,9 @@
   
 
   .projects {
-  border: 1px solid red;
+  border: 3px solid purple;
+  box-shadow: rgb(235, 73, 235) 0px 0px 13px 1px;
+  background: rgb(236, 214, 236);
   width: 90vW;
   height: 350px;
   margin: 50px;
@@ -17,7 +19,7 @@
   overflow: hidden;
   }
   .project {
-    border: 1px solid blue;
+    border: 2px solid rgb(236, 214, 236);
     display: flex;
     justify-content:space-around;
     align-items:flex-end;
@@ -66,7 +68,7 @@
   .tools{
     transition: transform 0.5s;
     flex: 1 0 auto;
-    transform: translateY(120%);
+    transform: translateY(125%);
 
     .js {
       height: 40px;

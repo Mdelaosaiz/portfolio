@@ -8,8 +8,14 @@
   background-position: center;
   background-size: cover;
   opacity: 0.85;
-  border: 4px solid green;
+  border: 5px solid white;
  
+  @media all and (min-width:1200px){
+    height: 70vh;
+    margin-top: 70px;
+    background-size: auto;
+  }  
+
   .intro{
     display:flex;
     flex-direction: column;

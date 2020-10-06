@@ -13,7 +13,6 @@ function openProject() {
 }
 
 function activeProject(e) {
-  console.log(e.propertyName);
   if (e.propertyName === 'flex-grow'){
     let tools = e.currentTarget.querySelector('.tools');
     tools.classList.toggle('open-active');
