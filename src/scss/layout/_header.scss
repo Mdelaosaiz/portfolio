@@ -3,14 +3,22 @@
   padding: 3px;
   top: 0;
   position: absolute; 
-  // background-color: honeydew;
-
-  
+    
   .logo-name {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    padding-left: 10px;
+
+   @media all and (min-width:768px){
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   @media all and (min-width:1200px){
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-around;
+   }
 
     .logo {
      height: 40px;
@@ -19,6 +27,10 @@
     }
     .menu {
      margin-right: 50px;
+
+     @media all and (min-width:1200px){
+      margin-right: 0px;
+     }
   
       .header-menu {
        display: flex;
@@ -34,13 +46,18 @@
          justify-content: center;
          margin: 0px;
          padding: 10px; 
-         line-height: 10px;    
+         line-height: 10px;   
+         
+         @media all and (min-width:1200px){
+          margin-top: 10px;
+          font-size: 20px;
+         }
         }
       
         a{  
          padding: 10px; 
-
         } 
+
       }
     }  
   }
