@@ -1,7 +1,7 @@
 .proyects-section {
   width: 100%;
   padding: 20px;
-  background-color: white;
+  background-color:$color-white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +10,16 @@
   font-family: $font-primary;
   
   line-height: 50px;
-  color:purple;
+  color:$color-primary;
   
   h3{
     font-size: 30px;
   }
 
   .projects {
-  border: 3px solid purple;
-  box-shadow: rgb(235, 73, 235) 0px 0px 13px 1px;
-  background: rgb(236, 214, 236);
+  border: 3px solid $color-primary;
+  box-shadow: $color-primary-medium 0px 0px 13px 1px;
+  background: $color-primary-light;
   width: 90vW;
   height: 350px;
   margin: 50px;
@@ -28,7 +28,7 @@
   overflow: hidden;
   }
   .project {
-    border: 2px solid rgb(236, 214, 236);
+    border: 2px solid $color-primary-light;
     display: flex;
     justify-content:space-around;
     align-items:flex-end;

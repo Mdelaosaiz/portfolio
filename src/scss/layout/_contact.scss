@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border: 2px orange dotted;
+  border: 2px dotted $color-tertiary;
 
 
   .chat{
@@ -22,7 +22,7 @@
    margin-top: 10px;
    font-family: $font-primary;
    font-size: 20px;
-   color: orange;
+   color: $color-tertiary;
  
   }
 
@@ -34,13 +34,13 @@
     justify-content: space-around;
     align-self: center;
     text-align: center;
-    border: 2px dotted #77C680;
+    border: 2px dotted $color-secondary-light;
     border-radius: 5px;
     
 
     li:not(:last-child):after {
       content: " · ";
-      color: black;
+      color: $color-dark;
       font-weight: 900;
       padding: 5px;
     }
@@ -56,7 +56,7 @@
       .fab {
         font-size:30px;
         margin: 10px;
-        color: #77C680;
+        color: $color-secondary-light;
       }
     }
   }
