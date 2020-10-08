@@ -5,7 +5,11 @@
   justify-content: center;
   align-items:center;
   padding: 30px;
-  
+  background: url("../../assets/images/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px orange dotted;
 
 
   .chat{
@@ -13,9 +17,12 @@
    flex-direction: column;
    justify-content: center;
    align-items:center;
-   line-height:30px;
+   text-align: center;
+   line-height:50px;
    margin-top: 10px;
    font-family: $font-primary;
+   font-size: 20px;
+   color: orange;
  
   }
 
@@ -27,7 +34,7 @@
     justify-content: space-around;
     align-self: center;
     text-align: center;
-    border: 3px solid #77C680;
+    border: 2px dotted #77C680;
     border-radius: 5px;
     
 
