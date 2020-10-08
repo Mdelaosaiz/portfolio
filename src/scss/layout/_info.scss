@@ -13,11 +13,12 @@
   }
   
   .portrait{
-    height: 300px;
-    margin-top: 40vh;
+    height: 180px;
+    margin-top: 6vh;
     border-radius: 15px;
 
     @media all and (min-width:768px){
+      margin-top: 40vh;
       height: 450px;
       margin-top: 20%;
     }
