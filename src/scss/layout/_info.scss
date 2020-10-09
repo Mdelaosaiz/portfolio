@@ -1,24 +1,27 @@
 .main{
   width: 100%;
+  padding:10px;
   display:flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   background-color: #DFF7D3;
 
   @media all and (min-width:760px){
+   flex-direction: row;
+   justify-content: space-evenly;
    padding-bottom: 25px;
   }
   
   .portrait{
-    height: 170px;
+    height: 180px;
     border-radius: 15px;
-    margin-top: 6vh;
+    margin-top: 2vh;
 
-    @media all and (min-width:768px){
-      margin-top: 40vh;
+    @media all and (min-width:760px){
       height: 400px;
-      margin-top: 20vh;
+      
     }
 
     @media all and (min-width:1200px){
@@ -27,7 +30,7 @@
 
   }
   .welcome{
-    width: 260px;
+    width: 340px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -81,14 +84,15 @@
   }
   .hobbies-list{
     width: 100%;
-    margin: 30px;
-    padding-right:15px;
+    margin-top: 20px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:flex-end;
     align-items: center;
     font-size: 20px;
     color: $color-secondary;
+    
 
     img{
       height: 40px;
@@ -96,9 +100,7 @@
 
       @media all and (min-width:1200px){ 
        height: 80px;
-       margin: 10px;
       }
-      
     }
   }
     
