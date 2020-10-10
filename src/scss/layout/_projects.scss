@@ -8,12 +8,24 @@
   align-items: center;
   text-align: center;
   font-family: $font-primary;
-  
   line-height: 50px;
   color:$color-primary;
   
   h3{
-    font-size: 30px;
+    font-size: 25px;
+
+    @media all and(min-width:760px){
+      font-size: 35px;
+    }
+  }
+
+  h2{
+    font-size:20px;
+
+    @media all and(min-width:760px){
+      font-size: 30px;
+    }
+    
   }
 
   .projects {
@@ -21,11 +33,15 @@
   box-shadow: $color-primary-medium 0px 0px 13px 1px;
   background: $color-primary-light;
   width: 90vW;
-  height: 350px;
+  height: 280px;
   margin: 50px;
   padding: 10px;
   display:flex;
   overflow: hidden;
+
+  @media all and(min-width:760px){
+    height: 350px;
+  }
   }
   .project {
     border: 2px solid $color-primary-light;
@@ -46,7 +62,7 @@
     transform: translateY(0%);
   } 
   .project.open {
-    flex:10;
+    flex:5;
 
     @media all and(min-width:760px){
      flex:3;
